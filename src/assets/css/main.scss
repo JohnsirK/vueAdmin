@@ -1,0 +1,17 @@
+// scss文件
+// 定义
+ $w100:100%;
+ $mt20:20px;
+ $mb20:20px;
+ 
+#app {
+  width:$w100;
+  height:$w100;
+  overflow: hidden;
+}
+.mt20{
+  margin-top: $mt20;
+}
+.mb20{
+  margin-bottom: $mb20;
+}

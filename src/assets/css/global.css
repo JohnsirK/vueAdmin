@@ -1,0 +1,95 @@
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,hr,thead,tbody,tfoot,th,td{margin:0;padding:0;font-weight:normal;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+html{-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none;}
+body{line-height:1.5; font-size:14px;}
+body,button,input,select,textarea{font-family:'helvetica neue',tahoma,'hiragino sans gb',stheiti,'wenquanyi micro hei',\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;}
+b,strong{font-weight:bold;}
+i,em{font-style:normal;} 
+img{border:0 none;width:auto\9;max-width:100%;vertical-align:top; height:auto;}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;vertical-align:baseline;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button[disabled],input[disabled]{cursor:default;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+input:focus{outline:none;}
+select[size],select[multiple],select[size][multiple]{border:1px solid #AAA;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}
+audio,canvas,video,progress{display:inline-block;}
+body{background:#fff;}
+input::-webkit-input-speech-button {display: none}
+button,input,textarea{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+* { touch-action: pan-y; } 
+html,body{
+  width:100%;
+  height:100%;
+} 
+button{
+	outline:none;
+}
+[v-cloak] {
+    display: none;
+}
+
+.slide-enter-active {
+  transition: all .3s ease
+}
+.slide-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0)
+}
+.slide-enter, .slide-leave-to {
+  transform: translateX(10px);
+  opacity: 0
+}
+.el-main{
+  min-height: calc(100% - 50px);
+  padding:20px 20px 50px 20px; 
+}
+.el-footer{
+  margin-top:-50px;
+  height:50px !important;
+  text-align: center;
+  color:#999;
+  font-size:12px;
+  line-height:50px;
+}
+.el-scrollbar__view, .homeRight {
+  height:100%;
+}
+.rightCon {
+  background: #f5f5f5;
+}
+.m10 {
+  margin:10px 0;
+}
+.tc {
+  text-align: center;
+}
+.w50 {
+  width: 600px;
+  margin: 0 auto;
+}
+.w100 {
+  width: 100%
+}
+.h4 {
+  font-size:16px;
+  margin:20px 0 10px 0;
+}
+.p10 {
+  padding: 10px;
+  margin-bottom: 0;
+}
+.bg1 {
+  background: #f9fafc;
+  border-top: 1px solid #eaeefb;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mt10 {
+  margin-top: 10px;
+}
